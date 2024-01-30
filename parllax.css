@@ -1,0 +1,155 @@
+
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: "lato", sans-serif;
+    line-height: 18px;
+}
+
+.pimg1{
+background-image: url("robert-lukeman-_RBcxo9AU-U-unsplash.jpg");
+min-height: 100%;
+
+}
+
+
+.pimg2{
+    background-image: url("lukasz-szmigiel-jFCViYFYcus-unsplash.jpg");
+    min-height: 400px;
+    
+    
+    }
+
+    
+.pimg3{
+    background-image: url("neom-wUyMk7ziLT0-unsplash.jpg");
+    min-height: 400px;
+    }
+
+ 
+    
+.pimg1,.pimg2,.pimg3{
+    position: relative;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+
+
+
+
+.content{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 27px;
+
+
+}
+
+.text_bg{
+    background: #313534;
+    color: white;
+    padding: 20px;
+}
+
+.section{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding: 50px 80px;
+    font-family: Arial;
+    text-align: center;
+   
+}
+.section_light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section_light2{
+    background-color: #282e34;
+color: #ddd;
+
+}
+
+.head{
+    text-transform: uppercase;
+}
+
+
+
+.section_light3{
+    background-color :#666;
+color: #ddd;
+}
+
+
+.navbar{
+    display: flex;
+   justify-content: space-between;
+   height: 50px;
+   background-color: black;
+   color: white;
+   text-align: center;
+   align-items: center;
+}
+
+.barr:hover{
+    background-color: blue;
+    transition: all 0.5s;
+
+}
+
+
+.text_bg:hover{
+     opacity: 0.8;
+     color: blue;
+     transition: all 0.9;
+   
+}
+
+.btn{
+    background-color: transparent;
+    color: #ddd;
+    border: none;
+}
+
+
+
+
+.phno{
+text-decoration: none;
+color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #282e34;
+    color: #ddd;
+
+}
+
+.left_side{
+    width: 30%;
+}
+
+.list_item{
+    list-style: none;
+    margin-bottom: 30px;
+    
+}
+i{
+    color: #ddd;
+}
+
+
+body{
+    min-width: 300px
+}
